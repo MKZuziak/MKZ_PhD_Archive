@@ -1,0 +1,18 @@
+{
+    "run_name": "Run I (PATHMNIST CENTRALISED)",
+    "dataset": "PATHMNIST",
+    "centralised_setup": {
+        "optimizer": "ADAM",
+        "local_learning_rate": 1e-7,
+        "batch_size": 128,
+        "weight_decay": 0.01,
+        "iterations": 100,
+        "scheduler": false,
+        "nesterov": true
+    },
+    "model": {
+        "architecture": "ResNet34 (Adjusted)",
+        "pretrained": false
+    },
+    "notes": ""
+}

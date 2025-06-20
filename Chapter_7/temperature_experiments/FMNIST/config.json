@@ -1,0 +1,19 @@
+{
+    "run_name": "Run I (FMNIST TEMPERATURE)",
+    "dataset": "FMNIST",
+    "federated_setup": {
+      "aggregator": "FedOpt",
+      "global_learning_rate": 1.0,
+      "local_optimizer": "SGD",
+      "local_learning_rate": 0.01,
+      "batch_size": 32,
+      "iterations": 50,
+      "local_epochs_per_iteration": 3,
+      "scheduler": false
+    },
+    "model": {
+      "architecture": "FMNIST_Eexpanded_CNN (Custom)", 
+      "pretrained": false
+    },
+    "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+    "run_name": "Run I (FMNIST CENTRALISED)",
+    "dataset": "FMNIST",
+    "centralised_setup": {
+        "optimizer": "SGD",
+        "local_learning_rate": 0.01,
+        "batch_size": 32,
+        "iterations": 80,
+        "scheduler": false
+    },
+    "model": {
+        "architecture": "Mnist Expanded CNN (custom)",
+        "pretrained": false
+    },
+    "notes": ""
+}

@@ -1,0 +1,22 @@
+{
+  "run_name": "Run II (CIFAR10 TEMPERATURE)",
+  "dataset": "CIFAR10",
+  "federated_setup": {
+      "aggregator": "FedOpt",
+      "global_learning_rate": 1.0,
+      "local_optimizer": "SGD",
+      "local_learning_rate": 0.005,
+      "momentum": 0.85,
+      "batch_size": 64,
+      "weight_decay": 5e-4,
+      "nesterov": true,
+      "iterations": 50,
+      "local_epochs_per_iteration": 3,
+      "scheduler": false
+  },
+  "model": {
+      "architecture": "Adjusted ResNet34",
+      "pretrained": false
+  },
+  "notes": "This is the hyperparameters reported for the Temperature run. Those hyperparameters have not been yet used for the experiments."
+}

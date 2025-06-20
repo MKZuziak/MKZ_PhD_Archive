@@ -1,0 +1,19 @@
+{
+    "run_name": "Run I (MNIST TEMPERATURE)",
+    "dataset": "MNIST",
+    "federated_setup": {
+      "aggregator": "FedOpt",
+      "global_learning_rate": 1.0,
+      "local_optimizer": "SGD",
+      "local_learning_rate": 0.01,
+      "batch_size": 32,
+      "iterations": 40,
+      "local_epochs_per_iteration": 3,
+      "scheduler": false
+    },
+    "model": {
+      "architecture": "MNIST_Eexpanded_CNN (Custom)", 
+      "pretrained": false
+    },
+    "notes": ""
+}

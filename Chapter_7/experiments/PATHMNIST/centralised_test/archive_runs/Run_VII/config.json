@@ -1,0 +1,30 @@
+{
+    "run_id": "Run VII (PathMNIST)",
+    "dataset": "PathMNIST",
+    "model": "ResNet-34",
+    "optimizer": "Adam",
+    "learning_rate": 1e-7,
+    "weight_decay": 0.01,
+    "scheduler": null,
+    "batch_size": 128,
+    "epochs": 100,
+    "label_smoothing": false,
+    "data_augmentation": false,
+    "results": {
+      "accuracy": 0.8042,
+      "f1_score": 0.8008,
+      "test_loss": 0.534,
+      "per_class_accuracy": {
+        "0": 0.9616,
+        "1": 0.9461,
+        "2": 0.6458,
+        "3": 0.9472,
+        "4": 0.7596,
+        "5": 0.7962,
+        "6": 0.6682,
+        "7": 0.6593,
+        "8": 0.8212
+      }
+    }
+  }
+  

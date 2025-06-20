@@ -1,0 +1,33 @@
+{
+    "run_id": "Run IV (PathMNIST)",
+    "dataset": "PathMNIST",
+    "model": "ResNet-50",
+    "optimizer": "Adam",
+    "learning_rate": 1e-5,
+    "weight_decay": 0.01,
+    "scheduler": {
+      "type": "MultiStepLR",
+      "milestones": [50, 75],
+      "gamma": 0.1
+    },
+    "batch_size": 128,
+    "epochs": 100,
+    "label_smoothing": false,
+    "data_augmentation": false,
+    "results": {
+      "accuracy": 0.8454,
+      "f1_score": 0.8428,
+      "test_loss": 0.4516,
+      "per_class_accuracy": {
+        "0": 0.9741,
+        "1": 0.9716,
+        "2": 0.7248,
+        "3": 0.9645,
+        "4": 0.8382,
+        "5": 0.8523,
+        "6": 0.7081,
+        "7": 0.6718,
+        "8": 0.868
+      }
+    }
+  }

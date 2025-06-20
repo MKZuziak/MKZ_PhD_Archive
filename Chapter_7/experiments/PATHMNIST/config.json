@@ -1,0 +1,25 @@
+{
+    "run_name": "Run II (PathMNIST)",
+    "dataset": "PathMNIST",
+    "federated_setup": {
+        "aggregator": "FedOpt",
+        "global_learning_rate": 1.0,
+        "local_optimizer": "Adam",
+        "local_learning_rate": 1e-7,
+        "batch_size": 128,
+        "weight_decay": 0.01,
+        "iterations": 75,
+        "local_epochs_per_iteration": 3,
+        "scheduler": false
+    },
+    "model": {
+        "architecture": "ResNet34 (Resized)",
+        "pretrained": false
+    },
+    "sattler": {
+        "eps1": 12,
+        "eps2": 60,
+        "round_cooldown": 40
+    },
+    "notes": ""
+}

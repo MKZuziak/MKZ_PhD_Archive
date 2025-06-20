@@ -1,0 +1,19 @@
+{
+    "run_id": "Run II",
+    "dataset": "PathMNIST",
+    "epochs": 100,
+    "model": "ResNet-50",
+    "optimizer": "Adam",
+    "learning_rate": 1e-7,
+    "scheduler": null,
+    "weight_decay": null,
+    "batch_size": 128,
+    "label_smoothing": false,
+    "data_augmentation": false,
+    "results": {
+      "accuracy": 0.7171,
+      "f1_score": 0.7089,
+      "test_loss": 0.742
+    }
+  }
+  

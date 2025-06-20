@@ -1,0 +1,19 @@
+{
+    "run_name": "Run I (CIFAR10 CENTRALISED)",
+    "dataset": "CIFAR10",
+    "centralised_setup": {
+        "optimizer": "SGD",
+        "local_learning_rate": 0.005,
+        "batch_size": 64,
+        "momentum": 0.85,
+        "weight_decay": 5e-4,
+        "iterations": 80,
+        "scheduler": false,
+        "nesterov": true
+    },
+    "model": {
+        "architecture": "ResNet34 (Adjusted)",
+        "pretrained": false
+    },
+    "notes": ""
+}
